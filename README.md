@@ -18,4 +18,22 @@ If you just put "webcam" for the filename, a
 live stream will be used for retroization.
 All you need to do is something like this:<br/>
 <code>python3 retroizer.py webcam</code></br/>
+The result will be a livestream of yourself,
+but pixelated.
+<hr/>
+Now something more interesting: Changing the
+pixelation level! To do this, simply use the
+-s option. The value specifies the size of the 
+pixels. While we are discussing options, here
+are some others:<br/>
+<ul>
+  <li>-x, -y: specifiy the starting x and y for draw the retroized image.</li>
+  <li>-w, --width, --height: specify the window size.</li>
+  <li>--flip: toggle flipping the image horizontally.</li>
+  <li>-v, --verbose: echo a bunch of info about the process.</li>
+  <li>-o, --output: specifiy the output file to write to.</li>
+</ul>
+<hr/>
+Well, that's all. Feel free to improve this repo,
+and enjoy!
 
